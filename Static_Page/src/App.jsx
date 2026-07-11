@@ -1,13 +1,11 @@
 import { useState } from 'react'
 import './App.css'
 import logo from './assets/images.jpg'
-
+import { Fragment } from 'react'
 function App() {
   const [count, setCount] = useState(0)
-
   return (
-    
-    <>
+    <Fragment>
   <div className="container">
     <div className="head">
       <img src={logo} alt="React Logo" />
@@ -26,7 +24,7 @@ function App() {
       </ul>
     </div>
   </div>
-</>
+</Fragment>
     
   )
 }
