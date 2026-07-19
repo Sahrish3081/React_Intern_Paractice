@@ -1,0 +1,16 @@
+
+
+
+.btn{
+  width: 100px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+margin: auto;
+padding: 10px 10px;
+}
+.btn span{
+  margin-left: 10px;
+  margin-right: 10px;
+}
